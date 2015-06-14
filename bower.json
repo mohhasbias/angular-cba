@@ -1,0 +1,10 @@
+{
+  "name": "SparkMobileApp",
+  "version": "0.0.0",
+  "main": "index.html",
+  "license": "MIT",
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0"
+  }
+}
