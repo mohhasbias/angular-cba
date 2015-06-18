@@ -8,22 +8,28 @@
   <!-- endinject -->
 </head>
 <body>
-	<h1>Hello, {{"I'm Angular with UI-Router"}}!</h1>
+<h1>Hello, {{"I'm Angular with UI-Router"}}!</h1>
 
-  <div ui-view></div>
+<div ui-view></div>
 
-  <!-- framework and libraries -->
-  <!-- bower:js -->
-  <script src="/bower_components/angular/angular.js"></script>
-  <script src="/bower_components/fastclick/lib/fastclick.js"></script>
-  <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-  <!-- endinject -->
+<!-- framework and libraries -->
+<!-- bower:js -->
+<script src="/bower_components/angular/angular.js"></script>
+<script src="/bower_components/fastclick/lib/fastclick.js"></script>
+<script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<!-- endinject -->
 
-  <!-- app components -->
-  <script src="app/app.module.js"></script>
-  <script src="app/app.config.js"></script>
+<!-- applications -->
+<!-- app:js -->
+<script src="/app/app.module.js"></script>
+<script src="/app/app.config.js"></script>
+<!-- endinject -->
 
-  <script src="app/hello/hello.module.js"></script>
-  <script src="app/hello/hello.routes.js"></script>
+<!-- appcomponents:js -->
+<script src="/app/hello/hello.module.js"></script>
+<script src="/app/hello/hello.routes.js"></script>
+<script src="/app/hello/hello.controller.js"></script>
+<!-- endinject -->
+
 </body>
 </html>

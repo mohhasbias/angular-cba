@@ -13,7 +13,9 @@
     $stateProvider
       .state('hello', {
         url: '/hello',
-        templateUrl: 'app/hello/hello.html'
+        templateUrl: 'app/hello/hello.html',
+        controller: 'helloController',
+        controllerAs: 'vm'
       });
   }
 })();
