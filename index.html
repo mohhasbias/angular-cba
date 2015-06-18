@@ -3,6 +3,9 @@
 <head>
   <title>My Angular App</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+  <!-- bower:css -->
+  <!-- endinject -->
 </head>
 <body>
 	<h1>Hello, {{"I'm Angular with UI-Router"}}!</h1>
@@ -10,9 +13,11 @@
   <div ui-view></div>
 
   <!-- framework and libraries -->
-  <script src="bower_components/angular/angular.min.js"></script>
-  <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
-  <script src="bower_components/fastclick/lib/fastclick.js"></script>
+  <!-- bower:js -->
+  <script src="/bower_components/angular/angular.js"></script>
+  <script src="/bower_components/fastclick/lib/fastclick.js"></script>
+  <script src="/bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+  <!-- endinject -->
 
   <!-- app components -->
   <script src="app/app.module.js"></script>

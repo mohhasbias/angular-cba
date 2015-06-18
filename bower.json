@@ -4,7 +4,8 @@
   "main": "index.html",
   "license": "MIT",
   "dependencies": {
-    "angular": "~1.4.0",
-    "fastclick": "~1.0.6"
+    "angular": "~1.4.1",
+    "fastclick": "~1.0.6",
+    "angular-ui-router": "~0.2.15"
   }
 }
